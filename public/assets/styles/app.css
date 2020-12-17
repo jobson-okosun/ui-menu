@@ -1,0 +1,212 @@
+/* styling in vanilla css */
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+
+	background-color: #673ab7 !important;
+}
+
+
+#menu-parent{
+
+	position: relative !important;
+	height: 80vh;
+
+}
+
+
+
+#menu-container > .container > .row > #menu-parent > #user-avatar {
+
+	position: absolute;
+	top: -30px;
+	z-index: 3;
+	height: 70px;
+	width: 70px;
+	left: 40%;
+	border: 3px solid white;
+}
+
+#menu-container > .container > .row > #menu-parent > .form-toggler {
+
+	position: absolute;
+	top: 0px;
+	z-index: 3;
+	left: 53%;
+	height: 30px ;
+	width: 30px;	
+	border: 2px solid white;
+
+}
+
+#menu-container > .container > .row > #menu-parent > .form-toggler > .fas {
+
+	opacity: 1;
+	animation-name: fadeIn;
+  	animation-duration: 1s;
+
+
+}
+
+
+@keyframes fadeIn{
+	
+	from {
+		opacity:0;
+	}
+
+	to{
+
+		opacity:1;
+	}
+	
+}
+
+#menu-container > .container > .row > #menu-parent > #form-toggler-hide {
+
+	
+}
+
+#menu-container > .container > .row > #menu-parent > #toggler {
+
+	position: absolute;
+	top: -10px;
+	z-index: 1;
+	left: 5%;
+	height: 30px ;
+	width: 30px;	
+	border: 2px solid white;
+
+}
+
+#menu-container > .container > .row > #menu-parent > #form-toggler > .fa-stream {
+	
+	font-size: 12px;
+
+}
+
+#menu-container > .container > .row > #menu-parent > .form-view-container{
+ 
+	position: absolute !important;
+	top: 0;
+	z-index:  2;
+	left: 40%;
+	right: 40%;
+	border: 2px solid lightgrey !important;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+
+}
+
+#menu-container > .container > .row > #menu-parent > .form-view-container > .settings > div {
+
+	font-weight: bold !important;
+	font-size: 14px;
+}
+
+
+
+#menu-container > .container > .row > #menu-parent > #link {
+
+	margin-top: 30px;
+	padding: 13px 13px;
+}
+
+#menu-container > .container > .row > #menu-parent > .mail-and-notification > div > .box{
+	
+		width: 40%;
+		padding: 8px 5px ;
+		border-radius: 25px 25px 25px 25px;
+		margin-bottom: 50px !important;
+
+}
+
+#menu-container > .container > .row > #menu-parent > .mail-and-notification {
+
+	position: relative !important;
+}
+
+#menu-container > .container > .row > #menu-parent > .mail-and-notification > .mailing-section{
+
+	/*tempory since no layout yet*/
+
+}
+
+#menu-container > .container > .row > #menu-parent > .mail-and-notification > .notification-section{
+
+		/*tempory since no layout yet*/
+
+	height: 50vh; 
+	position: absolute !important;
+	top: 80px;
+}
+
+#menu-container > .container > .row > #menu-parent >  .mail-and-notification > div > .box-inbox{
+	
+	margin-right: 35px !important;
+
+}
+
+#menu-container > .container > .row > #menu-parent > .mail-and-notification > div > .box-inbox > span > .fa-paper-plane{
+	
+	transform: rotate(-250deg);
+
+
+}
+
+
+/* custom element styles */
+.custom-border-radius{
+
+	border-radius: 25px 25px 0 0;
+
+}
+
+.custom-radius{
+	border-radius: 25px 25px 25px 25px;
+
+}
+
+.bg{
+
+	background-color: #673ab7 !important;
+}
+
+.text-bg{
+
+	color: #673ab7  ;
+}
+
+.bg-grey{
+
+	background-color: #f5f5f5 !important;
+
+}
+
+.social-links{
+
+	height: 30px ;
+	width: 30px;	
+}
+
+
+/*#menu-parent::after{
+
+	content: '';
+	position: absolute;
+	top: 0;  
+	left: 50%;
+    background-size: 100px 100px;
+    display: inline-block;
+    width: 100px; 
+    height: 100px;
+    border:2px solid blue;
+    border-radius: 50%;
+    background-image: url('./demo-ui-avatar.jpg');
+    background-repeat:  no-repeat;
+    background-size: fill;
+}*/

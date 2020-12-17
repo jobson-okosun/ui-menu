@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title> Demo ui menu </title>
+
+
+	<!-- styles -->
+	<link rel="stylesheet" type="text/css" href="./public/assets/styles/app.css">
+
+	<!-- icons -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+	<!-- boostraps cdn -->
+	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+</head>
+<body>
+
+
+	<!-- demo ui menu  -->
+
+	<main id = "menu-container">
+		
+		<div class="container mt-5">
+			<div class="row">
+				
+				<div class="col-md-4 p-0 custom-border-radius bg-white" id = "menu-parent">
+
+					<!--  form togglers  -->
+
+					<div class="rounded-circle p-2 d-flex align-items-center bg-danger p-3 justify-content-center"  id="toggler"><i class="fas fa-angle-down text-white"></i></div>
+
+					<img src = "./public/assets/images/demo-ui-avatar.jpg" class="img-fluid rounded-circle" id="user-avatar">
+
+					<div class="rounded-circle p-2 d-none align-items-center bg-primary justify-content-center form-toggler" id="form-toggler-hide"><i class="fas fa-times text-white toggle-icon"></i></div>
+
+					<div class="rounded-circle p-2 d-flex align-items-center bg-primary justify-content-center form-toggler" id="form-toggler-show"><i class="fas fa-stream text-white toggle-icon"></i></div>
+
+
+
+
+					<!-- forms -->
+					<!-- all dynamic form views in here -->
+
+					<div class="form-view-container border border-dark  custom-radius bg shadow">
+						
+						<h4 class="text-center text-primary"> Hey, <span class="font-weight-bold text-white" > User </span> </h4>
+
+						</br>
+
+						<h6 class="text-white text-center"> Settings </h6>
+
+						<div class="settings">
+							
+							<div class="custom-radius text-center p-1 py-3 bg-light mt-3 text-bg"> 
+								 Change Avatar
+							</div>
+							<div class="custom-radius text-center p-1 py-3 bg-light mt-2 text-bg"> 
+								 Accoutn Settings
+							</div>
+							<div class="custom-radius text-center p-1 py-3 bg-light mt-2 text-bg"> 
+								 Logout
+							</div>
+
+						</div>
+
+
+					</div>
+					
+
+					<div class=" custom-radius bg mx-4 text-white text-center  " id="link"> Lorem ipsum dolor/  sit amet, </div>
+						
+					<!-- socials -->
+
+					<div class="d-flex mx-4 justify-content-center my-3" id="socials"> 
+
+						<div class="social-links rounded-circle p-2 bg-grey d-flex p-4 align-items-center justify-content-center"><i class="fab fa-facebook-f text-primary"></i></div>
+
+						<div class=" mx-3 social-links rounded-circle p-2 bg-grey d-flex p-4 align-items-center justify-content-center"><i class="fab fa-twitter text-primary"></i></div>
+
+						<div class="social-links rounded-circle p-2 bg-grey d-flex p-4 align-items-center justify-content-center"><i class="far fa-clone text-bg"></i></div>
+
+					</div>
+
+					<!-- notification area -->
+
+					<div class="mail-and-notification">
+
+						<div class="custom-border-radius d-flex justify-content-center mailing-section bg p-3 py-4"> 
+
+							<button class="btn btn-primary box box-inbox "> 
+
+								<span> <i class="fas fa-paper-plane" ></i>  &nbsp; &nbsp;Inbox </span>
+
+							</button>
+
+							<button class="btn btn-outline-info box box-outbox"> 
+
+									<span> 
+										<i class="fas fa-paper-plane" ></i>  &nbsp; &nbsp; Outbox 
+									</span
+							></button>
+
+						</div>
+
+						<div class="custom-border-radius bg-light notification-section p-3 border w-100">
+							
+							demo form details in here !! lol, cos i'm super lazy 😆😆😆
+
+						</div>
+
+					</div>
+
+
+				</div>
+
+			</div>
+		</div>
+
+	</main>
+
+
+	<!-- jquery cdn  -->
+	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+	<!-- JavaScript Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+	<!-- scripts -->
+	<script type="text/javascript" src = "./public/assets/scripts/app.js"></script>
+
+</body>
+</html>
